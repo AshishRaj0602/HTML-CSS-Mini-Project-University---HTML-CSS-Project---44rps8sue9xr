@@ -1,1 +1,117 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196, 196, 196);
+}
+.card1 > .text{
+    margin: 10px 20px 10px 10px;
+    /* text-align: left; */
+}
+.card1{
+    padding: 30px 20px 30px 30px;
+    text-align: center;
+    position: relative;
+    height: 432px;
+    width: 400px;
+    background-color: white;
+    /* box-shadow: 0 5px 0px rgba(0,0,0,0.15); */
+    margin: 20px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.card2{
+    height: 210px;
+    width: 400px;
+    background-color: white;
+    /* box-shadow: 0 5px 0px rgba(0,0,0,0.15); */
+    margin: 20px;
+    border-radius: 30px;
+    padding: 15px 25px 25px 25px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.pic > img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 20px 10px 10px;
+}
+a > img{
+    height: 20px;
+}
+.pro{
+    margin: 10px;
+}
+.text{
+    /* margin-top: 20px; */
+}
+button{
+    height: 40px;
+    width: 150px;
+    /* margin-bottom: 20px; */
+    border-radius: 15px;
+}
+#bt{
+    margin-right: 13px;
+}
+button:hover{
+    background-color: navy;
+    color: white;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pic2> img{
+    height: 50px;
+    width: 50px;
+}
+.name1{
+    margin-top:5px ;
+}
+.text1{
+    margin: 5px 0px 0px 0px;
+}
+@media screen and (max-width: 400px) {
+    .card1{
+        width: 80%;
+        
+        margin: auto;
+    }
+    button{
+        height: 10%;
+        width: 40%;
+        margin-bottom: 3px;
+        border-radius: 15px;
+    }
+    /* .links{
+        margin: 10px 0px 0px 0px;
+    } */
+    .card2{
+        width: 80%;
+        
+        margin: auto;
+        margin-top: 10px;
+    }
+    .links{
+        margin: 10px 10px 5px 0px;
+    }
+}
+@media screen and (max-width: 400px){
+    .card1{
+        overflow: scroll;
+    }
+    .card2{
+        overflow: scroll;
+    }
+}
+
 
